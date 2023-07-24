@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auther" content="saria">
+    <meta name="discribtion" content="The official website for The little pizza shop">
+    <title>pizza shop</title>
+    <link rel="stylesheet" href="css/style.css"  type="text/css">
+    <link rel="icon" href="pic/icon.jpg"  type="image/x-icon"></a>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little pizza shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2 class="hero__h2">bon appetit</h2>
+        <figure>
+            <img src="pic/pizza.jpg" alt="pizza" title="We Love Pizza" width="1000" height="667">
+            <figcaption class="offscreen">
+                Pizza
+            </figcaption>
+        </figure>
+    </section>
+    <main class="main"></main>
+    <article id="menu" class="main__article menu">
+        <!-- menu items here -->
+        <h2>Our Menu</h2>
+        <table class="menu__container">
+            <caption class="offscreen">Our Pizza</caption>
+            <thead>
+                <tr>
+                    <th class="menu__header" scope="col">pizza</th>
+                    <th class="menu__header" scope="col">Quantity</th>
+                    <th class="menu__header" scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="menu__item menu__cr" scope="row" rowspan="3">chicken</th>
+                    <td class="menu__item">1</td>
+                    <td class="menu__item">3$</td>
+                </tr>
+                <tr>
+                
+                    <td class="menu__item">2</td>
+                    <td class="menu__item">5$</td>
+                </tr>
+                <tr>
+                    <td class="menu__item">3</td>
+                    <td class="menu__item">7$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="menu__item menu__cs" colspan="3">
+                        Extra cheese 1 $
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </article>
+
+<p class="center">
+    <a href="#" back to top></a>
+</p>
+
+
+    <footer class="footer">
+        <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">Little Pizza Shop</span>
+        </p>
+    </footer>
+</body>
+</html>
